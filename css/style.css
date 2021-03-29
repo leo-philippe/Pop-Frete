@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.titulo{
+    text-decoration: none;
+}
+
+.titulo li{
+    margin: 0 0 0 20px;
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 15px
+}
+
+.s1{
+    background-image: url('../imagem/caminhao-frete.png');
+    background-size: cover;
+    color: white;
+}
+
+.section h1{ 
+    font-size: 64px;
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    transform: translate(-50%,-20%);
+    background: linear-gradient(to right,#02041f, #404042, #2a2a2c);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.description{
+    text-align: left;
+    padding-left: 10%;
+    left: 10%;
+    right: 60%;
+    color: black;
+}
